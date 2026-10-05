@@ -1,0 +1,28 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules
+dist
+build
+coverage
+
+# Version control and CI metadata
+.git
+.gitignore
+.github
+
+# Documentation, scans, and infra not needed in the image
+README.md
+*.md
+pipeline.txt
+sonarqube_results.json
+SonarQube results before changes.png
+Kubernetes
+vercel.json
+
+# Docker build context
+Dockerfile
+.dockerignore
