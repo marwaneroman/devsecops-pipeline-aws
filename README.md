@@ -191,14 +191,3 @@ For Docker, the build arg `TMDB_V3_API_KEY` is mapped into `VITE_APP_TMDB_V3_API
 - SonarQube coverage focuses on `src/utils` and `src/hooks`; UI layers are excluded from coverage thresholds in `sonar-project.properties` by design.
 
 ---
-
-## Acknowledgments
-
-- UI and TMDB integration patterns inspired by community Netflix-clone tutorials and the original [DevSecOps-Project](https://github.com/N4si/DevSecOps-Project) learning material.
-- Movie metadata and images © [The Movie Database](https://www.themoviedb.org/) - this project is for educational and portfolio use only.
-
----
-
-## License
-
-This repository is for **educational / portfolio** purposes. Netflix branding and TMDB content remain property of their respective owners.
